@@ -1,6 +1,0 @@
-id=gms_checkin_guard_dbyw09
-name=DBY-W09 Checkin Guard
-version=1.0
-versionCode=1
-author=matepad11-hos42-root-gms
-description=Hourly health log; requests a normal Google checkin only after 18 hours without success. No identity or certification changes.

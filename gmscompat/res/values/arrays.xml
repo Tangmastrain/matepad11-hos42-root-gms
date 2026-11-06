@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="xposed_scope">
-        <item>com.android.vending</item>
-        <item>com.google.android.apps.maps</item>
-        <item>com.google.android.apps.photos</item>
-    </string-array>
-</resources>
