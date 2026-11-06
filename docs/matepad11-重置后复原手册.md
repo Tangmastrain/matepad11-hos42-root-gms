@@ -18,11 +18,11 @@
 **⚠️ 常见坑：ADB 看不到设备**
 - 下拉通知栏 → USB 连接方式 → 切换为"**传输文件**"（重置后默认仅充电，ADB 不通）
 - 仍不行就拔插一次线；`adb kill-server && adb start-server` 后重试
-- 设备序列号应为：`W3VBB21908201778`
+- 设备序列号应为：`<你的设备序列号>`
 
 **验证连接与 root：**
 ```bash
-adb devices                      # 应显示 W3VBB21908201778 device
+adb devices                      # 应显示 <你的设备序列号> device
 adb shell getprop sys.boot_completed   # 应输出 1
 adb shell su -c id               # 应输出 uid=0(root) ... context=u:r:magisk:s0
 ```
@@ -176,7 +176,7 @@ MSYS_NO_PATHCONV=1 adb shell 'su -c "cp /data/local/tmp/z-cpu-minfreq.sh /data/a
 
 ```bash
 # Magisk 管理器（工作区有安装包，没有就去 GitHub 镜像下载 Magisk-v27.0.apk）
-adb install -r "C:/Users/25712/WorkBuddy/matepad精简/Magisk-v27.0.apk"
+adb install -r "<本机路径>/Magisk-v27.0.apk"
 
 # VLC 3.7.1（官方 APK）
 adb install -r "$TEMP/vlc.apk"   # 无缓存则先从 get.videolan.org/vlc-android/ 下载 arm64-v8a 版
