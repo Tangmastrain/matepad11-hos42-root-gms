@@ -1,0 +1,6 @@
+id=debloat_stub3
+name=Debloat Stub3 (nearby/hiaction/qdma)
+version=v1.2
+versionCode=3
+author=serkanvela
+description=Systemless empty-dir stubs for HwNearby/HwAirlink/iConnect/HiAction/QCC APKs. Kills ~500MB of persistent vendor processes on MatePad 11 (DBY-W09, HarmonyOS 4.2). Disable module to restore.
